@@ -1,0 +1,2 @@
+mongo-master
+/home/yoyo/work
