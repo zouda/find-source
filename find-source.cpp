@@ -186,6 +186,8 @@ public:
       outs() << "\n";
       //outfile << "\n";
       full_file_name = "D:/Code/Repos/r10k_cpp"+file_name;
+      if (end_line < start_line)
+	return true;
       if (end_line-start_line< 8)
 	ranks = -(end_line-start_line-8);
       else
